@@ -1,0 +1,57 @@
+.contact-main{
+    background-image: url(../../assets/contact-us.jpg);
+    width: 100%;
+    opacity: .5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100vh;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-mainHeading{
+    color: black;
+    opacity: 1;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;   
+}
+.contact-mainPara{
+    color: rgb(0, 0, 0);
+     font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900; 
+}
+.contact-mainLink{
+    cursor: pointer;
+    transform: all .5s;
+     color: rgb(174, 13, 13);
+     text-decoration: none;
+     font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900; 
+}
+.contact-mainLink:hover{
+    color: rgb(90, 89, 89);
+}
+
+
+
+
+
+@media screen and (max-width:650px) {
+    .contact-main{
+        min-height: 50vh;
+    }
+    .contact-mainHeading{
+        font-size: 25px;
+        font-weight: 600;   
+    }
+    .contact-mainPara{
+         font-size: 15px;
+        font-weight: 400; 
+    }
+}

@@ -1,0 +1,76 @@
+.home-main{
+    background-image: url(../../assets/footer.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home-mainHeading{
+    color: black;
+    opacity: 1;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;   
+}
+.home-mainPara{
+    color: rgb(0, 0, 0);
+     font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900; 
+}
+.home-mainLink{
+    cursor: pointer;
+    transform: all .5s;
+     color: rgb(174, 13, 13);
+     text-decoration: none;
+     font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900; 
+}
+.home-mainLink:hover{
+    color: rgb(90, 89, 89);
+}
+
+/* -------------Slider------------ */
+.slider{
+    width: 100%;
+    min-height: auto;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+
+.home-Slider{
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+}
+.home-Slider div{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    
+
+}
+
+@media screen and (max-width:650px) {
+    .home-main{
+        min-height: 50vh;
+    }
+    .home-mainHeading{
+        font-size: 25px;
+        font-weight: 600;   
+    }
+    .home-mainPara{
+         font-size: 15px;
+        font-weight: 400; 
+    }
+}
